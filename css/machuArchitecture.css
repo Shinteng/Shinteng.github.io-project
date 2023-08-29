@@ -75,7 +75,7 @@ body {
 
 .word {
     position: absolute;
-    top: 3%;
+    top: 1%;
     width: 100%;
 }
 
@@ -89,12 +89,15 @@ body {
 
 
 
+
+
 @media only screen and (max-width: 992px) {
     .dropdown-menu.show {
         flex-wrap: wrap;
         max-height: 350px;
         overflow-y: scroll;
     }
+
 
 
 
@@ -124,6 +127,7 @@ body {
         flex-direction: column;
     }
 }
+
 
 .footer {
     text-align: left;

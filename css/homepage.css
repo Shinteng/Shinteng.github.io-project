@@ -76,6 +76,10 @@ body {
   text-align: right;
 }
 
+.world1 {
+  display: none;
+}
+
 .r1 {
   justify-content: end;
   align-items: center;
@@ -135,12 +139,20 @@ body {
   background-color: #EFEDED;
 }
 
+.r3 {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
 @media only screen and (max-width: 992px) {
   .dropdown-menu.show {
     flex-wrap: wrap;
     max-height: 350px;
     overflow-y: scroll;
   }
+
 
   .word {
     right: 10%;
@@ -200,13 +212,12 @@ body {
   }
 }
 
+
 @media only screen and (max-width: 680px) {
   .word {
     position: unset;
   }
-}
 
-@media only screen and (max-width: 680px) {
   .r2 {
     flex-direction: column;
   }
@@ -251,7 +262,20 @@ body {
     text-align: center;
     padding-right: 10px;
   }
+
+  .r3 {
+    flex-direction: column;
+  }
+
+  .world {
+    display: none;
+  }
+
+  .world1 {
+    display: block;
+  }
 }
+
 
 .footer {
   text-align: left;

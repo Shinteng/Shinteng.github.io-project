@@ -118,6 +118,7 @@ body {
         overflow-y: scroll;
     }
 
+
     .word {
         top: 0px;
         right: 2%;
@@ -150,6 +151,9 @@ body {
         flex-direction: column-reverse;
     }
 
+}
+
+@media only screen and (max-width: 680px) {
     .col3 {
         background-color: #BDD2B6;
         color: black;
@@ -159,7 +163,6 @@ body {
         background-color: #798777;
         color: white;
     }
-
 }
 
 .footer {
