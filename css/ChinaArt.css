@@ -85,7 +85,14 @@ body {
   #table {
     flex-direction: column;
   }
-
+  .tbl2 {
+    background-color: #ffd90022;
+    height: auto;
+  }
+  .tbl4 {
+    background-color: #a3242429;
+    height: auto;
+  }
   .describe {
     padding-right: 100px;
   }

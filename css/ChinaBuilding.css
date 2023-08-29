@@ -92,7 +92,14 @@ body {
   .table2 {
     flex-direction: column;
   }
-
+  .tbl4 {
+    background-color: #a3242429;
+    height: auto;
+  }
+  .tbl2 {
+    background-color: #ffd90022;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 992px) {
