@@ -133,7 +133,6 @@ body {
     #text2 {
         font-size: 20px;
     }
-
 }
 
 @media only screen and (min-width: 992px) {
@@ -189,8 +188,7 @@ body {
         position: unset;
         width: 100%;
     }
-
-    .table {
+    .table{
         flex-direction: column;
     }
 }
@@ -201,9 +199,8 @@ body {
         flex-wrap: wrap;
     }
 }
-
 @media only screen and (max-width: 580px) {
-    .call {
+    .call{
         flex-direction: column-reverse;
     }
 }
