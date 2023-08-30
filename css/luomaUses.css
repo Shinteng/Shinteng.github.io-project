@@ -56,9 +56,11 @@ body {
     .table2 {
         flex-direction: column;
     }
-    .table3{
+
+    .table3 {
         flex-direction: column;
     }
+
     #text1 {
         font-size: 20px;
     }
@@ -158,4 +160,11 @@ body {
     .row2 {
         flex-direction: column;
     }
+}
+
+.more {
+    text-decoration: none;
+    color: #000;
+    padding: 16px;
+    font-weight: bold;
 }
