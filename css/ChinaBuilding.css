@@ -91,10 +91,12 @@ body {
   .table2 {
     flex-direction: column;
   }
+
   .tbl4 {
     background-color: #a3242429;
     height: auto;
   }
+
   .tbl2 {
     background-color: #ffd90022;
     height: auto;
@@ -163,9 +165,14 @@ body {
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.10);
 }
+
 .more {
   text-decoration: none;
   color: #000;
   padding: 16px;
   font-weight: bold;
+}
+
+.nextpage {
+  display: flex;
 }

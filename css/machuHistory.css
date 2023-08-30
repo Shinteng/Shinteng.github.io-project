@@ -136,6 +136,10 @@ body {
     font-weight: bold;
 }
 
+.nextpage {
+    display: flex;
+}
+
 @media only screen and (max-width: 680px) {
 
     .start {

@@ -177,3 +177,8 @@ body {
     padding: 16px;
     font-weight: bold;
 }
+
+
+.nextpage {
+    display: flex;
+}

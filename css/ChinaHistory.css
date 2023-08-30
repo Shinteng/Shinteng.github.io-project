@@ -1,7 +1,8 @@
 body {
   background-color: #f8f9fa !important;
 }
-.text2{
+
+.text2 {
   padding: 24px;
   margin-bottom: 24px;
 }
@@ -46,6 +47,11 @@ body {
   font-weight: bold;
 }
 
+
+.nextpage {
+  display: flex;
+}
+
 #tbl1 {
   background-color: #B29E36;
 }
@@ -83,7 +89,8 @@ body {
     font-size: 10px;
     padding-top: 10px;
   }
-  .next{
+
+  .next {
     font-size: 20px;
   }
 }
@@ -96,14 +103,17 @@ body {
   .table2 {
     flex-direction: column;
   }
+
   .tbl2 {
     background-color: #ffd90022;
     height: auto;
   }
+
   .tbl4 {
     background-color: #a3242429;
     height: auto;
   }
+
   .describe {
     padding-right: 100px;
   }
